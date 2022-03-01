@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Potencias</title>
+        <link href="efectos02.css" rel="stylesheet" type="text/css">
+        <script src="prog22_potencias.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <center>
+            <p class="titulo24">Potencias</p>
+            <table border="3" width="60%">
+                <form name="f_ciclos">
+
+                    <tr>
+                        <td><p>Indica el valor de X</p></td>
+                        <td align="center"><input name="v1" type="number" class="campo" onclick="campos()"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Indica el valor de Y</p></td>
+                        <td align="center"><input name="v2" type="number" class="campo" onclick="campos()"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input name="res" type="text" class="campo" readonly style="width: 500px;"></td>
+                    </tr>
+                    <tr colspan="2" align="center">
+                        <td><input name="b_ejecuta" type="button" class="boton" value="ejecutar" readonly onclick="ejecuta()"></td>
+                        <td><input name="b_reset" type="reset" class="boton" value="reset" readonly style="background-color: red;"></td>
+                    </tr>
+                </form>
+            </table>
+        </center>
+    </body>
+</html>
